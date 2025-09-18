@@ -36,7 +36,7 @@
 
 ## Tests – Curación y Cálculo (CAO/CR)
 
-Estos tests validan la lógica descrita en los notebooks, junto con ello se incluyen verificaciones DAX en PowerBI y controles de seguridad en el código M
+Estos tests validan la lógica descrita en los notebooks, junto con ello se incluyen verificaciones DAX en PowerBI y controles de seguridad en el código M que carga los datos vía PowerQuery
 
 01_curate_currency_and_domains.ipynb
 Conversión a USD, columnas obligatorias y checks de integridad (fases, categorías, budgets).
