@@ -10,7 +10,26 @@
 - `data/samples/`  
   Pequeños datos de ejemplo (no sensibles) para probar localmente la lógica de conversión a USD.
 
-## Requisitos rápidos
+## Estructura
+  tfm-purchasing/
+├─ notebooks/
+│  ├─ 01_curate_currency_and_domains.ipynb
+│  └─ 02_compute_cost_avoidance_reduction.ipynb
+├─ powerbi/
+│  └─ KPI_Purchasing_DEV.pbix
+│  └─ ayAssets_DirectQuery.pbix
+│  └─ ayAssets_DirectQuery.pbix
+│  └─ KPI_Purchasing_v3     
+├─ data/
+│  └─ samples/
+│     └─ ref_exchange_rates_sample.csv  
+├─ docs/
+│  └─ arquitectura.png                   
+├─ .gitignore
+└─ README.md
+
+
+## Requisitos
 - Workspace de **Azure Synapse** con Spark pool.
 - **Azure SQL** / Synapse SQL para tablas `stg_*`, `cur`, `fact`, `mart`, `qa`.
 - Tabla de tipos de cambio: `ref.exchange_rates_atlantica_2024_mod` con columnas `Currency`, `AvgRate`.
