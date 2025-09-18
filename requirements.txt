@@ -1,2 +1,7 @@
-pyspark
-pytest
+pyspark==3.5.1
+pytest>=7.0
+pyspark==3.5.1
+pytest>=7.0
+nbformat>=5.9      
+black>=24.0        
+isort>=5.13       
