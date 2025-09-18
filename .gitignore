@@ -1,0 +1,12 @@
+# Notebooks
+.ipynb_checkpoints/
+# SO/IDE
+.DS_Store
+Thumbs.db
+.vscode/
+# Datos sensibles o grandes
+data/**/raw/**
+data/**/secure/**
+*.env
+# Power BI caches
+*.pbix.__*
