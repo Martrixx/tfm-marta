@@ -38,8 +38,8 @@
 
 Estos tests validan la lógica descrita en los notebooks, junto con ello se incluyen verificaciones DAX en PowerBI y controles de seguridad en el código M que carga los datos vía PowerQuery
 
-01_curate_currency_and_domains.ipynb
+**01_curate_currency_and_domains.ipynb**
 Conversión a USD, columnas obligatorias y checks de integridad (fases, categorías, budgets).
 
-02_compute_cost_avoidance_reduction.ipynb
+**02_compute_cost_avoidance_reduction.ipynb**
 Cálculo de Cost Avoidance (mediana vs mínimo) y Cost Reduction (budget vs PO), y agregados.
