@@ -34,12 +34,12 @@
 4. Abrir **KPI_Purchasing_DEV.pbix** y apuntar el modelo a tu instancia (credenciales/DSN).  
    Recomendado: **Import con incremental refresh**; DirectQuery solo para vistas muy recientes.
 
-## Variables (en los notebooks)
-```python
-CATALOG = ""         
-DB_STAGING = "stg_sap"
-DB_REF = "ref"
-DB_CUR = "cur"
-DB_QA = "qa"
-DB_FACT = "fact"
-DB_MART = "mart"
+## Tests – Curación y Cálculo (CAO/CR)
+
+Estos tests validan la lógica descrita en los notebooks, junto con ello se incluyen verificaciones DAX en PowerBI y controles de seguridad en el código M
+
+01_curate_currency_and_domains.ipynb
+Conversión a USD, columnas obligatorias y checks de integridad (fases, categorías, budgets).
+
+02_compute_cost_avoidance_reduction.ipynb
+Cálculo de Cost Avoidance (mediana vs mínimo) y Cost Reduction (budget vs PO), y agregados.
