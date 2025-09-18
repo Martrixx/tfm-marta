@@ -11,8 +11,10 @@
   Pequeños datos de ejemplo (no sensibles) para probar localmente la lógica de conversión a USD.
 
 ## Estructura
-![Arquitectura del proyecto](docs/estructura repositorio 2025-09-18-1241.png)
 
+<p align="center">
+  <img src="docs/estructura repositorio 2025-09-18-1241.png" alt="Arquitectura" width="600">
+</p>
 
 
 ## Requisitos
